@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configura
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kelderro.Poc.SignalR", "Kelderro.Poc.SignalR\Kelderro.Poc.SignalR.csproj", "{F76EE226-6A7F-42C8-B221-9463800F2D44}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Kelderro.Poc.SignalR.Azure", "Kelderro.Poc.SignalR.Azure\Kelderro.Poc.SignalR.Azure.ccproj", "{68A93B42-01ED-4523-8554-E83B2FB93DF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{F76EE226-6A7F-42C8-B221-9463800F2D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F76EE226-6A7F-42C8-B221-9463800F2D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F76EE226-6A7F-42C8-B221-9463800F2D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A93B42-01ED-4523-8554-E83B2FB93DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A93B42-01ED-4523-8554-E83B2FB93DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A93B42-01ED-4523-8554-E83B2FB93DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A93B42-01ED-4523-8554-E83B2FB93DF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
