@@ -3,17 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{10BDC699-BB26-4754-A397-DAA7F8498220}"
-	ProjectSection(SolutionItems) = preProject
-		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
-		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{7BCA441C-E9B8-40AF-89CA-EA63AA383D31}"
-	ProjectSection(SolutionItems) = preProject
-		PublishScripts\Configurations\KelderroPoc-WAWS-dev.json = PublishScripts\Configurations\KelderroPoc-WAWS-dev.json
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kelderro.Poc.SignalR", "Kelderro.Poc.SignalR\Kelderro.Poc.SignalR.csproj", "{F76EE226-6A7F-42C8-B221-9463800F2D44}"
 EndProject
 Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Kelderro.Poc.SignalR.Azure", "Kelderro.Poc.SignalR.Azure\Kelderro.Poc.SignalR.Azure.ccproj", "{68A93B42-01ED-4523-8554-E83B2FB93DF5}"
@@ -35,8 +24,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{7BCA441C-E9B8-40AF-89CA-EA63AA383D31} = {10BDC699-BB26-4754-A397-DAA7F8498220}
 	EndGlobalSection
 EndGlobal
