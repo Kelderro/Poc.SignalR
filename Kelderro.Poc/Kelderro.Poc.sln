@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kelderro.Poc.SignalR", "Kelderro.Poc.SignalR\Kelderro.Poc.SignalR.csproj", "{F76EE226-6A7F-42C8-B221-9463800F2D44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kelderro.Poc.WebApi", "Kelderro.Poc.WebApi\Kelderro.Poc.WebApi.csproj", "{F45B4A6E-B101-4429-B99E-6ED4A329775F}"
 EndProject
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Kelderro.Poc.SignalR.Azure", "Kelderro.Poc.SignalR.Azure\Kelderro.Poc.SignalR.Azure.ccproj", "{68A93B42-01ED-4523-8554-E83B2FB93DF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kelderro.Poc.Web", "Kelderro.Poc.Web\Kelderro.Poc.Web.csproj", "{F76EE226-6A7F-42C8-B221-9463800F2D44}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Kelderro.Poc.Web.Azure", "Kelderro.Poc.Web.Azure\Kelderro.Poc.Web.Azure.ccproj", "{68A93B42-01ED-4523-8554-E83B2FB93DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kelderro.Poc.Web.Test", "Kelderro.Poc.Web.Test\Kelderro.Poc.Web.Test.csproj", "{8FEBF242-67D7-4C86-AA29-78A8E6BCD567}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataTier", "DataTier", "{0D0AD21C-EEBC-4BE8-AD96-8CE7DCC7B655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kelderro.Poc.Data", "Kelderro.Poc.Data\Kelderro.Poc.Data.csproj", "{A3B82B7E-686A-4D6D-B8BE-54DA92B9A714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +21,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F45B4A6E-B101-4429-B99E-6ED4A329775F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45B4A6E-B101-4429-B99E-6ED4A329775F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45B4A6E-B101-4429-B99E-6ED4A329775F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45B4A6E-B101-4429-B99E-6ED4A329775F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F76EE226-6A7F-42C8-B221-9463800F2D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F76EE226-6A7F-42C8-B221-9463800F2D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F76EE226-6A7F-42C8-B221-9463800F2D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -21,8 +33,19 @@ Global
 		{68A93B42-01ED-4523-8554-E83B2FB93DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A93B42-01ED-4523-8554-E83B2FB93DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A93B42-01ED-4523-8554-E83B2FB93DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEBF242-67D7-4C86-AA29-78A8E6BCD567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEBF242-67D7-4C86-AA29-78A8E6BCD567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEBF242-67D7-4C86-AA29-78A8E6BCD567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEBF242-67D7-4C86-AA29-78A8E6BCD567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B82B7E-686A-4D6D-B8BE-54DA92B9A714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B82B7E-686A-4D6D-B8BE-54DA92B9A714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B82B7E-686A-4D6D-B8BE-54DA92B9A714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B82B7E-686A-4D6D-B8BE-54DA92B9A714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3B82B7E-686A-4D6D-B8BE-54DA92B9A714} = {0D0AD21C-EEBC-4BE8-AD96-8CE7DCC7B655}
 	EndGlobalSection
 EndGlobal
