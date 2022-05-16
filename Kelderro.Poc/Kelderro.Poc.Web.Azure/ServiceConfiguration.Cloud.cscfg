@@ -3,7 +3,7 @@
   <Role name="Kelderro.Poc.Web">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=portalvhdsgf39rbp56pjhc;AccountKey=tGhlN8KQ989X5T7Tt2jkq2AAFjZUCJ1jVVQ5mIabcv90dy+ERY5nQmWG83BLPNJAKw//mtioBjUi7+uhDHT+sw==" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
